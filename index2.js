@@ -1,6 +1,19 @@
 
 const API_URL ="https://www.habbo.com/gamedata/furnidata_json/1";
 
+/*
+const Header = {
+    method : 'GET',
+        Headers:{
+            
+            'Sec-Fetch-Dest' : 'document',
+            'Sec-Fetch-Mode' : 'no cors',
+            'Sec-Fetch-Site' : 'cross-site',
+            'Upgrade-Insecure-Requests' : '1',
+            'User-Agent' : 	'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0'
+        }
+    };  
+*/
 const API_URL_DOG ="https://api.thedogapi.com/v1/breeds";
 
 // const HTMLResponse = document.querySelector("app");
