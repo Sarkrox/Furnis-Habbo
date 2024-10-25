@@ -2,7 +2,7 @@ const API_URL ="https://www.habbo.es/gamedata/furnidata_json/1";
 
 async function getfurni(){
     try {
-        const res = await fetch ("https://www.habbo.es/gamedata/furnidata_json/1", Header);
+        const res = await fetch ("https://www.habbo.es/gamedata/furnidata_json/1");
         const data = await res.json();
         console.log(data);
                 
